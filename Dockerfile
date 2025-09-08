@@ -1,5 +1,5 @@
-# [수정] 존재하고 검증된 PyTorch CPU 이미지 태그로 변경합니다.
-FROM pytorch/pytorch:2.3.0-cpu-py311
+# [수정] 공식적으로 확인된 올바른 PyTorch CPU 이미지 태그로 변경합니다.
+FROM pytorch/pytorch:2.3.1-cpu-py311
 
 # --- 아래 내용은 이전과 동일합니다 ---
 # 컨테이너 내부에 앱을 위한 작업 공간(/app)을 만듭니다.
