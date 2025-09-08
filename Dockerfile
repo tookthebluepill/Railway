@@ -1,7 +1,7 @@
-# [수정] 공식적으로 확인된 올바른 PyTorch CPU 이미지 태그로 변경합니다.
-FROM pytorch/pytorch:2.3.1-cpu-py311
+# [최종 수정] Docker Hub에서 현재 사용 가능함이 확인된 공식 이미지 태그
+FROM pytorch/pytorch:2.2.2-cpu-py311
 
-# --- 아래 내용은 이전과 동일합니다 ---
+# --- 아래 내용은 동일합니다 ---
 # 컨테이너 내부에 앱을 위한 작업 공간(/app)을 만듭니다.
 WORKDIR /app
 
