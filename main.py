@@ -13,3 +13,7 @@ app.include_router(rag.router, prefix="/api/rag", tags=["rag"])
 @app.get("/")
 def read_root():
     return {"message": "FastAPI server is running"}
+app = FastAPI()
+@app.get("/")
+def read_root():
+    return {"Hello": "World"}
