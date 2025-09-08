@@ -1,2 +1,13 @@
 fastapi
-uvicorn
+uvicorn[standard]
+sqlalchemy
+pymysql
+numpy
+pandas
+matplotlib
+seaborn
+tqdm
+torch --index-url https://download.pytorch.org/whl/cpu
+torchvision --index-url https://download.pytorch.org/whl/cpu
+torchaudio --index-url https://download.pytorch.org/whl/cpu
+scikit-learn
